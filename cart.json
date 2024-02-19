@@ -1,0 +1,8 @@
+{
+    "productos": [
+        {"id":1,"nombre": "Samsung S24","descripcion": "Samsung S24 ULTRA","precio":5500,"imagen":""},
+        {"id":1,"nombre": "Samsung S23","descripcion": "Samsung S23 ULTRA","precio":4500,"imagen":""},
+        {"id":1,"nombre": "Samsung S22","descripcion": "Samsung S22","precio":3500,"imagen":""},
+        {"id":"4", "nombre":"Lámpara", "descripcion":"Ratón descripcion", "precio":1000, "imagen":""}
+    ]
+}

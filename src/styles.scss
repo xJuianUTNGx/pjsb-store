@@ -1,3 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
 @import "primeng/resources/themes/lara-light-blue/theme.css";
 @import "primeng/resources/primeng.css";
+@import "primeflex/primeflex.css";
+@import "primeicons/primeicons.css";
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.header {
+    background-color:black ;
+   
+    border: 1px solid;
+   
+    min-height: 46px;  //Se define el espacio que tendra la barra de navegacion
+    text-align: center;
+    box-shadow: 10px 13px 15px 1px rgba(0, 0, 0, 0.181);
+    -webkit-box-shadow: 10px 13px 15px 1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 10px 13px 15px 1px rgba(0, 0, 0, 0.159);
+}
+
+.footer {
+    
+    background-color:darkgrey;
+    min-height: 100px;  //Se define el espacio que tendra la barra de navegacion
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 13px 15px 1px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 10px 13px 15px 1px rgba(0,0,0,0.65);
+    -moz-box-shadow: 10px 13px 15px 1px rgba(0,0,0,0.65);
+}
+
+.content{
+    display: block;
+    min-height: calc(100vh - 80px);
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+
+    .producto {
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 300px;    
+    }
+}
+
+
+
+div.cart {
+    float: left;
+    margin-right: 5px;
+
+}
+
+.cart img {
+   
+    height: 40px;
+    width: 40px;
+}
+span {
+
+}
+.cart span{
+    font-size: 0.5rem;  
+    float:left;
+    margin-top: 20px;
+
+}
+
+
+
+.mr-2 {
+float: left;
+}
