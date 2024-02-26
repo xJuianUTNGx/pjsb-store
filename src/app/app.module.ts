@@ -10,6 +10,7 @@ import { ModprimengModule } from './modprimeng.module';
 import { HeaderComponent } from './componentes/plantillas/header/header.component';
 import { FooterComponent } from './componentes/plantillas/footer/footer.component';
 import { ProductosModule } from './modulos/productos/productos.module';
+import { ProductosService } from './servicios/productos.service';
 
 
 
@@ -17,7 +18,8 @@ import { ProductosModule } from './modulos/productos/productos.module';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
   
   imports: [
@@ -36,4 +38,8 @@ import { ProductosModule } from './modulos/productos/productos.module';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(private service:ProductosService) {
+    localStorage.setItem('cart', JSON.stringify([]))
+  }
+ }

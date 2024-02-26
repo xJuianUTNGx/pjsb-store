@@ -1,8 +1,7 @@
 {
     "productos": [
-        {"id":1,"nombre": "Samsung S24","descripcion": "Samsung S24 ULTRA","precio":5500,"imagen":""},
-        {"id":1,"nombre": "Samsung S23","descripcion": "Samsung S23 ULTRA","precio":4500,"imagen":""},
-        {"id":1,"nombre": "Samsung S22","descripcion": "Samsung S22","precio":3500,"imagen":""},
-        {"id":"4", "nombre":"Lámpara", "descripcion":"Ratón descripcion", "precio":1000, "imagen":""}
+        {"id":1,"nombre": "Invitacion Cumple.","descripcion": "-Aplicacion RA ", "descripcion2":"Tamaño de 30x20", "descripcion3": "-Papel opalina","precio":5500,"fecha": "2024-02-20T11:03:31Z", "imagen":"https://th.bing.com/th/id/OIP.B_9fs269ug_5NZUzu6PPjgAAAA?rs=1&pid=ImgDetMain"},
+        {"id":2,"nombre": "Invitacion Boda","descripcion": "-Aplicacion RA", "descripcion2":"-Tamaño de 15x20", "descripcion3": "-Papel opalina","precio":4500,"fecha": "2024-02-20T11:03:31Z","imagen":"https://th.bing.com/th/id/OIP.wlpZ6zuQPm6UCdhql_5_-QAAAA?rs=1&pid=ImgDetMain"},
+        {"id":3,"nombre": "Invitacion Bautizo","descripcion": "-No incluye aplicacion RA","descripcion2":"-Tamaño de 10x20", "descripcion3": "-Papel mate" ,"precio":2500,"fecha": "2024-02-20T11:03:31Z" ,"imagen":"https://images.tcdn.com.br/img/img_prod/1084315/convite_minimalista_envelope_kraft_recorte_especial_323_2_674ff5f4aab982cdb9030801ddb11425.jpeg"}
     ]
 }
