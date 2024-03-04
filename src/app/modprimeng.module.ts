@@ -5,13 +5,17 @@ import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
 import {ToastModule} from 'primeng/toast';
 import { SidebarModule } from 'primeng/sidebar'; 
+import { DataViewModule } from 'primeng/dataview';
+import { TagModule } from 'primeng/tag';
 
 const misModulos: any = [
   ButtonModule,
   CardModule,
   InputTextModule,
   ToastModule,
-  SidebarModule
+  SidebarModule,
+  DataViewModule,
+  TagModule
 ] ;
 
 @NgModule({

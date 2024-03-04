@@ -11,7 +11,9 @@ import { HeaderComponent } from './componentes/plantillas/header/header.componen
 import { FooterComponent } from './componentes/plantillas/footer/footer.component';
 import { ProductosModule } from './modulos/productos/productos.module';
 import { ProductosService } from './servicios/productos.service';
-
+import { DataViewModule } from 'primeng/dataview';
+import { TagModule } from 'primeng/tag';
+import { CartComponent } from './componentes/cart/cart.component';
 
 
 @NgModule({
@@ -19,6 +21,7 @@ import { ProductosService } from './servicios/productos.service';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    CartComponent,
     
   ],
   
@@ -29,7 +32,9 @@ import { ProductosService } from './servicios/productos.service';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    ProductosModule
+    ProductosModule,
+    DataViewModule,
+    TagModule
   ],
 
   providers: [

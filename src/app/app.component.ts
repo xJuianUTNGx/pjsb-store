@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'pjsb-store';
+  title = 'Tienda Online';
+  showCart: boolean = false;
+
+  toogleCart(){
+    this.showCart = !this.showCart
+  }
 }

@@ -6,5 +6,8 @@ export interface Producto {
     descripcion3: string,
     precio: number;
     imagen: string;
-    fecha: Date;   
+    fecha: Date; 
+    inventoryStatus: any;
+
+      
 }

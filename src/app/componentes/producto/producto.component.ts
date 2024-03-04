@@ -3,6 +3,7 @@ import { Producto } from '../../modelos/producto';
 import { UpperCasePipe } from '@angular/common';
 import { CartProducto } from '../../modelos/cart-producto';
 import { TitleCasePipe } from '@angular/common'; // Asegúrate de importar el TitleCasePipe
+import { DataView } from 'primeng/dataview';
 @Component({
   selector: 'app-producto',
   templateUrl: './producto.component.html',
@@ -11,7 +12,7 @@ import { TitleCasePipe } from '@angular/common'; // Asegúrate de importar el Ti
 export class ProductoComponent {
   @Input() producto?: Producto;
   cart: CartProducto[] = [];
-
+  productos: Producto[] = [];
   constructor() {}
 
   get nombre() {

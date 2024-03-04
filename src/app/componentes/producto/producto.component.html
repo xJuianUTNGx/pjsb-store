@@ -1,26 +1,3 @@
-<p-card header="{{ producto?.nombre | uppercase }}" [style]="{ width: '' }">
-  <small>Lanzamiento: {{ producto?.fecha| date :'dd/MM/yyyy'| lowercase }}</small>
 
-  <ng-template pTemplate="header"> </ng-template>
-  <img class="imgB" *ngIf="producto?.imagen" [src]="producto?.imagen" alt="Imagen del producto">
-  <br>
-  <br>
-  <p>
-    
-    
-  </p>
-  <p>
-    {{ producto?.descripcion |lowercase }}
-  </p>
-  <p>
-    {{ producto?.descripcion2 |lowercase }}
-  </p>
-  <p>
-    {{ producto?.descripcion3 |lowercase }}
-  </p>
-
-  <dt>{{ producto?.precio | currency }}</dt>
-  <ng-template pTemplate="footer">
-    <p-button (onClick)="add()" label="Ver producto" icon="pi pi-cart-plus"></p-button>
-  </ng-template>
-</p-card>
+<p-button (onClick)="add()" label="Agregar" icon="pi pi-cart-plus"></p-button>
+  
